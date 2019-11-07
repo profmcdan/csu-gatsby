@@ -9,6 +9,13 @@ module.exports = {
     'gatsby-plugin-react-helmet',
     'gatsby-transformer-yaml',
     {
+      resolve: `gatsby-plugin-tawk`,
+      options: {
+        tawkId: '5dc3d9f6154bf74666b7f2dd'
+        // get this from the tawk script widget
+      }
+    },
+    {
       resolve: 'gatsby-plugin-google-tagmanager',
       options: {
         /*id: 'GTM-add_your_tag_here',*/
